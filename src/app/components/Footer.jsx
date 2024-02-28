@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
+import Image from "next/image";
 
 const footer = () => {
     return(
@@ -56,7 +57,9 @@ const footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
-                            Copyright 2023 - Playhost by Designesia
+                            Copyright 2024 - <Link href="#" passHref={true}>
+                            N. Ahmed
+                        </Link>
                         </div>
                         <div className="col-lg-6 col-sm-6 text-lg-end text-sm-start">
                             <ul className="menu-simple">
