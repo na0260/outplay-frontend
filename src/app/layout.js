@@ -1,5 +1,18 @@
+import React from 'react';
 import { Inter } from "next/font/google";
-import "./globals.css";
+import './assets/css/bootstrap.min.css';
+import './assets/css/aos.css';
+import './assets/css/animated.css';
+import './assets/css/swiper-bundle.min.css';
+import './assets/css/coloring.css';
+import './assets/css/globals.css';
+import './assets/css/Home.module.css';
+import './assets/css/maincolor.css';
+import './assets/css/style.scss';
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/css/fontawesome.min.css';
+import 'elegant-icons/style.css';
+import 'et-line/style.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +24,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      {children}
+      </body>
     </html>
   );
 }
