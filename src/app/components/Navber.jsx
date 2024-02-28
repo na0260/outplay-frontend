@@ -1,7 +1,6 @@
 'use client';
-import React, {useEffect, useState, useRef} from "react";
+import React, {useEffect, useState} from "react";
 import Link from 'next/link'
-import useOnclickOutside from "react-cool-onclickoutside";
 
 const Navbar = () => {
     const [showmenu, setBtnIcon] = useState(false);
