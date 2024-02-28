@@ -1,9 +1,22 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client';
+import { HelmetProvider } from 'react-helmet-async';
+import Navbar from "@/app/components/Navber";
 
 export default function Home() {
-  return (
-    <>
-    </>
+    const ScrollToTop = () => {
+        const { pathname } = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+
+        return null;
+    };
+
+    return (
+      <HelmetProvider>
+          <Navbar/>
+          {ScrollToTop}
+      </HelmetProvider>
   );
 }
