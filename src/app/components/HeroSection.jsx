@@ -25,7 +25,7 @@ const Section = () => {
                     <div className="container z-1000">
                         <div className="row align-items-center">
                             <div className="col-lg-10 offset-lg-1 text-center">
-                                <h1 className="mb-0">
+                                <h1 className="mb-0 hero-title">
                                     Welcome to OutPlay
                                 </h1>
 

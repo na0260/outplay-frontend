@@ -1905,7 +1905,7 @@ h1.slider-title {
 
   h1 {
     font-size: 72px;
-    background: linear-gradient(0deg, #888888 0%, #ffffff 75%);
+    background: linear-gradient(0deg, var(--primary-color) 0%, var(--secondary-color) 75%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

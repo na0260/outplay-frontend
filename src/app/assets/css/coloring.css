@@ -102,13 +102,13 @@ h1.s2 .c1 span,
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color:#ffffff;
-    background:var(--secondary-color);
+    color:var(--secondary-color) !important;
+    background:#ffffff;
 }
 
 ::selection {
-    color:#ffffff;
-    background:var(--secondary-color);
+    color:var(--secondary-color) !important;
+    background:#ffffff;
 }
 
 #back-to-top,
