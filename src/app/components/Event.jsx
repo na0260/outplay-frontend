@@ -5,7 +5,7 @@ const Event = (props) => {
         padding: '0',
     };
     return (
-        <div className="col-lg-4 col-md-12 gallery-item">
+        <div className="col-lg-3 col-md-4 col-sm-12 gallery-item">
             <div className="de-item wow">
                 <div className="d-overlay">
                     <div className="d-text">

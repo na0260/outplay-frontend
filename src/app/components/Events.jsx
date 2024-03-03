@@ -19,6 +19,7 @@ const Events = () => {
                 <Event title="MLBB SNOWSTORM SHOWDOWN" prizepool="$1200" img="./img/events/snowstorm.png" logo="./img/logos/mlbb.png"/>
                 <Event title="MLBB SNOWSTORM SHOWDOWN" prizepool="$1200" img="./img/events/snowstorm.png" logo="./img/logos/mlbb.png"/>
                 <Event title="MLBB SNOWSTORM SHOWDOWN" prizepool="$1200" img="./img/events/snowstorm.png" logo="./img/logos/mlbb.png"/>
+                <Event title="MLBB SNOWSTORM SHOWDOWN" prizepool="$1200" img="./img/events/snowstorm.png" logo="./img/logos/mlbb.png"/>
             </div>
 
         </div>
