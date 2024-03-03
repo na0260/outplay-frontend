@@ -7,6 +7,7 @@ import ServiceSection from "@/app/components/ServiceSection";
 import {Parallax} from "react-parallax";
 import Events from "@/app/components/Events";
 import BusinessPartners from "@/app/components/BusinessPartners";
+import Gallery from "@/app/components/Gallery";
 
 const bg = "./img/events-bg.webp";
 
@@ -36,6 +37,10 @@ export default function Home() {
 
                 <section className="no-bottom">
                     <BusinessPartners/>
+                </section>
+
+                <section>
+                    <Gallery/>
                 </section>
 
                 <Footer/>
