@@ -1,5 +1,4 @@
 'use client';
-import { HelmetProvider } from 'react-helmet-async';
 import Navbar from "@/app/components/Navber";
 import Footer from "@/app/components/Footer";
 import HeroSection from "@/app/components/HeroSection";
@@ -13,7 +12,7 @@ const bg = "./img/events-bg.webp";
 
 export default function Home() {
     return (
-        <HelmetProvider>
+        <>
             <div className="home dark-scheme">
                 <header id="header-wrap">
                     <Navbar/>
@@ -45,7 +44,7 @@ export default function Home() {
 
                 <Footer/>
             </div>
-
-        </HelmetProvider>
-    );
+        </>
+    )
+        ;
 }
