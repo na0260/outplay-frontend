@@ -6,7 +6,7 @@ const BusinessPartners = () => {
     return (
         <>
             <div className="container">
-                <div className="row">
+                <div className="row text-center">
                     <div className="col-lg-12">
                         <div className="subtitle fadeInUp mb-3">Our Valuable</div>
                     </div>
