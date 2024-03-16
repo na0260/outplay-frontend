@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from "next/link";
 import Event from "@/app/components/Event";
 
 const Events = () => {
